@@ -1,0 +1,176 @@
+@media (max-width: 600px) {
+    html, body{
+        margin: 0vw;
+        padding: 0vw;
+        background-color: #faf3e0;
+    }
+    h1{
+        font-size: 13vw;
+        margin: 0vw;
+        padding: 3vw 3vw 3vw 3vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #wow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #secbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 10vw;
+        width: 120vws;
+        font-size: 4vw;
+        font-weight: 800;
+        border-radius: .9vw;
+    }
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vw;
+        width: 100vw;
+        flex-wrap: wrap;
+        margin: 20vw 0 20vw 0;
+        gap: 4vw;
+    }
+    #btn{
+        color: white;
+        background-color: black;
+        display: flex;
+        height: 30vw;
+        width: 30vw;
+        flex-direction: row;
+        gap: 1vw;
+        padding: 1vw 1vw 1vw 1vw;
+        border-radius: 1vw;
+        border-style: solid;
+        box-shadow: 1vw 1vw 1vw 1vw rgba(0, 0, 0, 0.5);
+        font-size: 15vw;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+    html, body{
+        margin: 0vw;
+        padding: 0vw;
+        background-color: #faf3e0;
+    }
+    h1{
+        font-size: 8vw;
+        margin: 0vw;
+        padding: 3vw 3vw 3vw 3vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vw;
+        width: 100vw;
+        flex-wrap: wrap;
+        margin: 20vw 0 20vw 0;
+        gap: 4vw;
+    }
+    #btn{
+        background-color: black;
+        display: flex;
+        height: 30vw;
+        width: 30vw;
+        flex-direction: row;
+        gap: 1vw;
+        padding: 1vw 1vw 1vw 1vw;
+        border-radius: 1vw;
+        border-style: solid;
+        box-shadow: 1vw 1vw 1vw 1vw rgba(0, 0, 0, 0.5);
+    }
+    #wow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #secbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 10vw;
+        width: 120vws;
+        font-size: 4vw;
+        font-weight: 800;
+        border-radius: .9vw;
+
+    }
+}
+
+@media (min-width: 1025px){
+    html, body{
+        margin: 0vw;
+        padding: 0vw;
+        background-color: #faf3e0;
+    }
+    h1{
+        font-size: 5vw;
+        margin: 0vw;
+        padding: 3vw 3vw 3vw 3vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 35vw;
+        width:  40vw;
+        gap: .5vw;
+        margin: 2vw 0 4vw 30vw ;
+    }
+    #btn{
+        font-size: 4.5vw;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 1vw;
+        border-style: solid;
+        height: 10vw;
+        width: 10vw;
+        gap: 2vw;
+    }
+    #wow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #secbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2vw;
+        font-weight: 800;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    .hide{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.9vw;
+    }
+    
+}

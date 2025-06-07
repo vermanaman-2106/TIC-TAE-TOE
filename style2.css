@@ -1,0 +1,50 @@
+@media(max-width: 600px){
+html, body{
+    background-color: #faf3e0;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vw;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+.results{
+    padding: 0px 0px 20vw;
+    font-size: 10vw;
+}
+.butn{
+    font-size: 4vw;
+    font-weight: 800;
+    border-radius: .9vw;
+    height: 10vw;
+}
+}
+
+@media(min-width: 1025px){
+    html, body{
+    background-color: #faf3e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20vw;
+    gap: 4vw;
+}
+.results{
+    font-size: 6vw;
+}
+.butn{
+    font-size: 2vw;
+    font-weight: 800;
+    border-radius: .9vw;
+
+}
+}
